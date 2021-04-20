@@ -91,6 +91,10 @@ IP addresses assigned to build VMs in LiquidWeb data center (Lansing, MI):
     67.225.164.53
     67.225.164.54
     67.225.164.96
+    67.225.164.101
+    67.225.164.102
+    67.225.164.136
+    67.225.165.19
     67.225.165.66
     67.225.165.168
     67.225.165.171
@@ -100,6 +104,8 @@ IP addresses assigned to build VMs in LiquidWeb data center (Lansing, MI):
     67.225.165.193
     67.225.165.198
     67.225.165.200
+    67.225.165.215
+    67.225.251.89
 
 IP addresses assigned to build VMs in AWS data center (`US West (Oregon)` region):
 
@@ -122,6 +128,8 @@ IP addresses of AppVeyor macOS VMs:
 IP address of AppVeyor Cloud in Azure data center (`West US` region) - when deploying with "Environments":
 
     138.91.141.243
+
+The full list of IP addresses is maintained in a [JSON file](/ips.json) that can be used in automation scenarios.
 
 ## Build worker images
 

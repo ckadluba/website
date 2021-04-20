@@ -149,10 +149,8 @@ Variables `{version}`, `{build}`, `{branch}` are shortcuts implemented specifica
 You can use all other environment variables substitution in file name and version formats using standard environment variable notation, for example:
 
 ```yaml
-package_version: $(appveyor_build_version)
+package_version: $(APPVEYOR_BUILD_VERSION)
 ```
-
-Variables `{version}`, `{build}`, `{branch}` are shortcuts implemented specifically to use with patching. Use them exactly as described (in `{}` curly brackets).
 
 ## .NET Core `.csproj` files patching
 
@@ -187,7 +185,7 @@ Variables `{version}`, `{build}`, `{branch}` are shortcuts implemented specifica
 You can use all other environment variables substitution in file name and version formats using standard environment variable notation, for example:
 
 ```yaml
-package_version: $(appveyor_build_version)
+package_version: $(APPVEYOR_BUILD_VERSION)
 ```
 
 ### Semantic versioning with version suffixes
